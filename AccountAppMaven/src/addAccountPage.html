@@ -1,0 +1,30 @@
+<html>
+<head>
+   <!-- development version, includes helpful console warnings -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js">
+  var app = new Vue(){
+       el: '#content';
+	   data: {
+			heading: "Enter details Below" ,
+			fristNameLabel: "FristName",
+			lastNameLabel: "LastName:,
+	   }
+}
+</script>
+</head>
+<body>
+
+<div id="content"> 
+   <h1>{heading}</h1>
+   <form id="label"> 
+   <label>  {fristNameLabel}  </label>   <input type="text" name="fristName"> <br>
+   <label>  {lastNameLabel}  </label><input type="text" name="LastName">  <br>;
+   <button name="add"> Add userButton< </button>
+  <button>
+	 
+   </form>
+</div>
+   
+</body>
+
+</html>
