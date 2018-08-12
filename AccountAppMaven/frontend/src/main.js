@@ -12,7 +12,7 @@ new Vue({
   el: '#app',
   router,
   components: { accouts },
-  template: '<App/>',
+  template: '</accountd>'
 
 })
 

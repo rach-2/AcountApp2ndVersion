@@ -67,6 +67,7 @@
               <arguments>install</arguments>
             </configuration>
           </execution>
+          <execution></execution>
 
           <!-- Build and minify static files -->
           <execution>

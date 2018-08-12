@@ -43,45 +43,22 @@ methonds:{ createAcount(){
       
 
     showAccounts(){
-           
+
+        
+
          
     }
 
 }
 
 
-//  account = new vue()
-//   {
-//       el: '#acount',
-//       data ={
-//           firstName: '',
-//           lastName: '',
-//           accountNumber:'',
-
-//       }
-
-//       createAccount()
-//       {
-//           var fristName = this.firstName
-//           var lastName = this.lastName;
-//           var acountNumber =this.accountNumber
-//           var accountInformation  = new URLSearchParams()
-//            accountInformation.append(fristName);
-//             accountInformation.append(lastName);
-//             accountInformation.append(acountNumber);
-//            postMessage(accountInformation.getAll);
-//     }
-
-//   }
+  account = new vue()
+  {
+      el: "account",
+      el: "acc"
+  }
 
 
-// ShowAcounts = new vue()
-// {
-//     el: '#accounts";
-//     ShowData(
-//         get
-//     )
-// }
 
 </script>
 

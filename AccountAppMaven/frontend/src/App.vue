@@ -24,6 +24,6 @@ export default {
 }
 exports consts 
 {
-   baseUrl
+   
 }
 </style>

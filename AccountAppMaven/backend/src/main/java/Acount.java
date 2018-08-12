@@ -1,21 +1,18 @@
 package com.qa.AccountAppMaven;
 
 import javax.persistence.Entity;
-import javax.persistence.Id
-import javax.persistence.GeneratedValue;
-
+import javax.persistence.Id;
+//import javax.persistence.GeneratedValue;
 @Entity
+//@JsonIgnoreProrties("hibernateLazzyIntails", "handler")
 public class Acount
 {
 	 @Id
-	 @GenaratedValue(stategy = GenrationType.AUTO),
-	private int id;
-	 private String firstName ;
+	 //@GenaratedValue(stategy = GenrationType.AUTO),
+	private Integer id;
+	 private String firstName;
 	 private String  lastName;
 	 private String accountNamber;
-	 
-    
-    
 	public Acount(String firstName, String lastName, String accountNamber) {;
 		this.firstName = firstName;
 		this.lastName = lastName;
@@ -53,13 +50,15 @@ public class Acount
 	 
 	public int getId()
 	{
-		return Id;
+		return id;
 	}
 	
     public void setId(int id)
     {
     	this.id=id;
     }
+    
+ 
 	
 	
 	

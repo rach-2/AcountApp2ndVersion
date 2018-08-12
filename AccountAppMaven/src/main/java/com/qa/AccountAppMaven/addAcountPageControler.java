@@ -15,35 +15,26 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.http.HttpStatus;
 
-@RestController
-@RequestMapping("/api/v1/AddAccountPage")
-public class addAcountPageControler() 
-{
-	 @GetMapping
-	  pulbic  ArrayList<AcountAppPage> getAcounts()
-	  {
-   	     return accounts;
-	  }
-      @PostMapping
-      @ResponseStatus(HttpStatus.CREATED)
-     public  void addAccount(@RequestBody AddAcountPage addingAcount){
-    	  
-    	  addingAcount.getFirstName();
-    	  addingAcount.getLastName();
-    	  addingAcount.getAccountNamber();
-  	 
-      }
-      
-     @
-    	    
+//@RestController
+//@RequestMapping("/api/v1/AddAccountPage")
+//public class addAcountPageControler() 
+//{
+//	   @GetMapping
+//	  pulbic  ArrayList<AcountAppPage> getAcounts()
+//	  {
+//   	     return accounts;
+//	  }
+//      @PostMapping
+//      @ResponseStatus(HttpStatus.CREATED)
+//     public  void addAccount(@RequestBody AddAcountPage addingAcount){
+//    	  
+//    	  addingAcount.getFirstName();
+//    	  addingAcount.getLastName();
+//    	  addingAcount.getAccountNamber();
+//  	 
+//      }
+//      
+//     @
+//    	    
       
 
-    	        
-    }
-     
-    
-     
-       
-    
-     
-}

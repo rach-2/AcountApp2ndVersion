@@ -1,6 +1,6 @@
-<template>
+<template name"accounts">
     <div class="account">
-    <account> [  </account>
+    <account>   </account>
     <form id="data" >
    <input type="text" v-model="fristName"> <input>
    {fristName}
@@ -12,79 +12,68 @@
         <button @click="createAcount()">CreateAccount</button>
  </form>
  </div>
- <template>
-     <div id="accounts"></div>
-     <table>
-       
-
-     </table>
- </template>
-<
 <script>
 export default {
     import {CONFIF} from './covfigantion.js',
     name: 'accout',
+
     data()
     {
         return
-        Response[],                                                                     
+        response[],                                                                     
         account:{
             
-            fistName: ''
+            firstName: '',
             lastName: '',
             acountNumber:'',
+            id:0
 methods:{ createAcount(){
 
          var accountInformation  = new URLSearchParams()
          accountInformation.append(this.fristName);
          accountInformation.append(this.lastName);
-          CONFIF.post('/account/acountInformation')
+          CONFIF.post('/account/acountInformation').then((resposne => {
+                 this.response=response.data;
+                 acount.firstName = response.data
+                 acount.lastName =  resposne.data
+                 acount.acountNumber = response.data,
+                }))
+         
+         
+            
+         export default {
+             
+         
+         }
+         </script>
+         
+         <style>
+         
+         </style>
          
     }
 
     showAccounts(){
-           <table> 
+          
+          
+          <script>
+          export default ()
+          {
+               
+          }
            
-           
-            </table>
+          
          
     }
+   
+   showAccounts{
+    accoun
 
 }
 
 
-//  account = new vue()
-//   {
-//       el: '#acount',
-//       data ={
-//           firstName: '',
-//           lastName: '',
-//           accountNumber:'',
-
-//       }
-
-//       createAccount()
-//       {
-//           var fristName = this.firstName
-//           var lastName = this.lastName;
-//           var acountNumber =this.accountNumber
-//           var accountInformation  = new URLSearchParams()
-//            accountInformation.append(fristName);
-//             accountInformation.append(lastName);
-//             accountInformation.append(acountNumber);
-//            postMessage(accountInformation.getAll);
-//     }
-
-//   }
-
-
-// ShowAcounts = new vue()
-// {
-//     el: '#accounts";
-//     ShowData(
-//         
-//     )
-// }
-
+         
+    )
+ }
 </script>
 
