@@ -3,9 +3,9 @@
     <form id="data" >
    <input type="text" v-model="fristName"> <input>
    {fristName}
-     <label>enterFristNs</label>   <inputt type="text", v-model="lastName"></inputt>
-        {lastName}
-        <input type="text", v-model="acountNumber"> </input>
+     <label>{fristNameLabel}</label>   <inputt type="text", v-model="lastName"></inputt>
+        
+       <lastNam <input type="text", v-model="acountNumber"> </input>
         {accourNumber}
         {data}
         <button @click="createAcount()">CreateAccount</button>
@@ -43,8 +43,8 @@ methonds:{ createAcount(){
       
 
     showAccounts(){
-
-        
+    
+    showShowAcount
 
          
     }
@@ -55,7 +55,10 @@ methonds:{ createAcount(){
   account = new vue()
   {
       el: "account",
-      el: "acc"
+       fristNameLabel: "EnterFristName"
+       LastNameLabel: "enterLastName";
+       AcountNumberLabel: "enterLastName,
+       acountNumberLabel: "acountNumber'
   }
 
 

@@ -1,8 +1,8 @@
-//package com.qa.AccountAppMaven;
+////package com.qa.AccountAppMaven;
+////
+//import org.springframework.data.jpa.repository.JpaRepository;
 //
-import org.springframework.data.jpa.repository.JpaRepository;
-
-public interface accountResponisty extends JpaRepository<Acount, Integer> {
-     
-}
+//public interface accountResponisty extends JpaRepository<Acount, Integer> {
+//     
+//}
 

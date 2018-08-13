@@ -1,13 +1,11 @@
 package com.qa.AccountAppMaven;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+//import javax.persistence.Entity;
+//import javax.persistence.Id;
 //import javax.persistence.GeneratedValue;
-@Entity
 //@JsonIgnoreProrties("hibernateLazzyIntails", "handler")
 public class Acount
 {
-	 @Id
 	 //@GenaratedValue(stategy = GenrationType.AUTO),
 	private Integer id;
 	 private String firstName;
