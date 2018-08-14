@@ -21,7 +21,7 @@ import org.springframework.core.io.Resource;
 import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
-@RequestMapping("/api/")
+@RequestMapping("/")
 public class AcountControler
 	{
 
@@ -68,7 +68,7 @@ public class AcountControler
       @ResponseStatus(HttpStatus.CREATED)
       public void addAccount(@RequestBody Acount acountToChage)
       {
-    	      
+    	      h
       }
       
 }
